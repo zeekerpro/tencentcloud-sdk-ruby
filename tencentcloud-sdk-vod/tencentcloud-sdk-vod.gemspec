@@ -31,5 +31,5 @@ Gem::Specification.new do |spec|
     'changelog_uri' => 'https://github.com/TencentCloud/tencentcloud-sdk-ruby/blob/master/CHANGELOG.md'
   }
 
-  spec.add_dependency('tencentcloud-sdk-common', '3.0.409')
+  spec.add_dependency('tencentcloud-sdk-common', spec.version)
 end
